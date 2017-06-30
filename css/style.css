@@ -190,7 +190,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: 9;
   cursor: pointer;
   font-size: 16px;
-  color: #334249;
+  color: #5f7800;
   -webkit-transition: all 0.25s linear;
 }
 
@@ -205,7 +205,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: 5;
   transition: border .25s linear;
   -webkit-transition: border .25s linear;
-  background: #f4f4f4;
+  background: #ccffcc;
   border-radius: 3px;
   outline: none;
 }
@@ -221,7 +221,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background: transparent;
   top: 4px;
   left: 4px;
-  border: 3px solid #e74c3c;
+  border: 3px solid #ffff00;
   border-top: none;
   border-right: none;
   -webkit-transform: rotate(-45deg);
@@ -242,7 +242,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .reg_chose .form-group input[type=radio]:checked ~ label {
-  color: #2e3c43;
+  color: #5f7800;
 }
 
 /* Welcome title css
@@ -253,14 +253,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .welcome_title h3 {
   font-size: 30px;
-  color: #2e3c43;
+  color: #5f7800;
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   padding-bottom: 12px;
 }
 
 .welcome_title h3 span {
-  color: #e74c3c;
+  color: #5f7800;
 }
 
 .welcome_white_title {
@@ -276,7 +276,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome_white_title h3 span {
-  color: #e74c3c;
+  color: #5f7800;
 }
 
 #circle1 {
@@ -433,11 +433,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area .navbar-default {
-  background: rgba(0, 0, 0, 0.68);
+  background: rgba(86, 99, 3, 0.68);
   border-radius: 0px;
   border: none;
   box-shadow: none;
-  border-bottom: 1px solid #e74c3c;
+  border-bottom: 1px solid #ffff00;
   margin-bottom: 0px;
 }
 
@@ -482,7 +482,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .header_menu_area .navbar-default .navbar-collapse .navbar-nav li a:before {
   content: '';
-  background: #e74c3c;
+  background: #5f7800;
   height: 3px;
   width: 100%;
   left: 0px;
@@ -499,7 +499,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area .navbar-default .navbar-collapse .navbar-nav li:hover a, .header_menu_area .navbar-default .navbar-collapse .navbar-nav li.active a {
-  color: #e74c3c;
+  color: #ffff00;
 }
 
 .header_menu_area .navbar-default .navbar-collapse .navbar-nav li:hover a:before, .header_menu_area .navbar-default .navbar-collapse .navbar-nav li.active a:before {
@@ -514,8 +514,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border: none;
   left: -50%;
   transition: all 400ms linear 0s;
-  border-top: 1px solid #e74c3c;
-  border-bottom: 1px solid #e74c3c;
+  border-top: 1px solid #ffff00;
+  border-bottom: 1px solid #ffff00;
   border-radius: 0px;
   text-align: center;
   background: transparent;
@@ -543,8 +543,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   position: relative;
   text-shadow: none;
-  border-bottom: 1px solid #0e0e0e;
-  background: rgba(0, 0, 0, 0.62);
+  border-bottom: 1px solid #ffff00;
+  background: rgba(86, 99, 3, 0.68);
   font-size: 14px;
   font-family: "Ubuntu", sans-serif;
 }
@@ -554,7 +554,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area .navbar-default .navbar-collapse .navbar-nav li.submenu .dropdown-menu li:hover a {
-  color: #e74c3c;
+  color: #ffff00;
   background: rgba(0, 0, 0, 0.8);
 }
 
@@ -646,8 +646,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area .navbar-default .navbar-collapse .navbar-nav.navbar-right li.flag_drop .selector .dd.ddcommon .ddChild ul {
-  border-top: 1px solid #e74c3c;
-  border-bottom: 1px solid #e74c3c;
+  border-top: 1px solid #ffff00;
+  border-bottom: 1px solid #ffff00;
   box-sizing: border-box;
 }
 
@@ -662,7 +662,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-family: "Ubuntu", sans-serif;
   line-height: 38px;
-  border-bottom: 1px solid #0e0e0e;
+  border-bottom: 1px solid #ffff00;
   transition: all 400ms linear 0s;
 }
 
@@ -704,12 +704,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav li a {
-  color: #2e3c43;
+  color: #ffff00;
   font-weight: 500;
 }
 
 .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav li:hover a, .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav li.active a {
-  color: #e74c3c;
+  color: #ffff00;
 }
 
 .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav.navbar-right:before {
@@ -721,11 +721,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav.navbar-right li.flag_drop .selector .ddcommon .ddTitle .ddTitleText .ddlabel {
-  color: #2e3c43;
+  color: #ffff00;
 }
 
 .header_menu_area.white_menu .navbar-default .navbar-collapse .navbar-nav.navbar-right li.flag_drop .selector .ddcommon .ddTitle .ddTitleText:before {
-  color: #2e3c43;
+  color: #ffff00;
 }
 
 .header_menu_area.white_menu.affix {
@@ -873,7 +873,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   max-width: 488px;
   margin: auto;
   position: relative;
-  border: 8px solid #e74c3c;
+  border: 8px solid #ffff00;
   background: #fff;
   border-radius: 5px;
   padding: 0px 50px 50px 50px;
@@ -935,7 +935,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .login_form_inner input:focus {
-  border: 1px solid #e74c3c;
+  border: 1px solid #ffff00;
 }
 
 .login_form_inner .login_btn_area .login_social {
@@ -1027,7 +1027,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   max-width: 970px;
   margin: auto;
   position: relative;
-  border: 8px solid #e74c3c;
+  border: 8px solid #ffff00;
   background: #fff;
   border-radius: 5px;
   padding: 0px 50px 0px 30px;
@@ -1100,7 +1100,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .register_form_inner .registration_form_s .form-group input:focus {
-  border: 1px solid #e74c3c;
+  border: 1px solid #ffff00;
 }
 
 .register_form_inner .registration_form_s .form-group .btn-group {
@@ -1236,7 +1236,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #e74c3c;
+  background-color: #5f7800;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1257,7 +1257,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e74c3c;
+  border: 1px solid #5f7800;
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
@@ -1265,7 +1265,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .login_btn:hover {
-  color: #e74c3c;
+  color: #5f7800;
 }
 
 .login_btn:hover:before {
@@ -1334,7 +1334,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e74c3c;
+  border: 1px solid #ffff00;
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
@@ -1364,7 +1364,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 50px;
   display: block;
   border-radius: 25px;
-  color: #e74c3c;
+  color: #ffff00;
   font-size: 16px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
@@ -1411,7 +1411,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e74c3c;
+  border: 1px solid #ffff00;
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
@@ -1572,7 +1572,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 38px;
   display: block;
   text-align: center;
-  background: #e74c3c;
+  background: #5f7800;
   line-height: 100px;
   color: #fff;
   transition: all 400ms linear 0s;
@@ -1701,7 +1701,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background: #e74c3c;
+  background: #5F7800;
   margin-bottom: 10px;
   position: relative;
   left: 2px;
@@ -1712,7 +1712,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .download_full_slider .download_moblie .download_m_slider .download_moblile_slider .owl-controls .owl-dots .owl-dot.active {
-  border: 2px solid #fff;
+  border: 2px solid #ffff00;
   vertical-align: middle;
   box-sizing: content-box;
   left: 0px;
@@ -1899,7 +1899,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 0;
   border-style: solid;
   border-width: 0 50px 50px 0;
-  border-color: transparent #e74c3c transparent transparent;
+  border-color: transparent #ffff00 transparent transparent;
   transition: all 400ms linear 0s;
 }
 
@@ -2411,7 +2411,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .registration_form_area .registration_form_s .form-group input:focus {
-  border: 1px solid #e74c3c;
+  border: 1px solid #ffff00;
 }
 
 .registration_form_area .registration_form_s .form-group .btn-group {
@@ -2725,7 +2725,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background: #fff;
   display: inline-block;
   text-align: center;
-  color: #e74c3c;
+  color: #ffff00;
   line-height: 50px;
   font-size: 16px;
   margin-right: 17px;
@@ -4720,7 +4720,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background: #e74c3c;
+  background: #5F7800;
   border: none;
   box-shadow: none;
   outline: none;
@@ -4732,7 +4732,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   left: -14px;
   height: 22px;
   width: 42px;
-  background: #e74c3c;
+  background: #5F7800;
   border-radius: 3px;
   padding-left: 6px;
   color: #fff;
@@ -4760,11 +4760,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 0;
   border-style: solid;
   border-width: 4px 3.5px 0 3.5px;
-  border-color: #e74c3c transparent transparent transparent;
+  border-color: #5F7800 transparent transparent transparent;
 }
 
 .range_count #slider-range-min .ui-slider-range {
-  background: #e74c3c;
+  background: #5F7800;
 }
 
 .range_count #slider-range-min2 {
@@ -4777,7 +4777,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 12px;
   width: 12px;
   border-radius: 50%;
-  background: #e74c3c;
+  background: #5F7800;
   border: none;
   box-shadow: none;
   outline: none;
@@ -4789,7 +4789,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   left: -14px;
   height: 22px;
   width: 42px;
-  background: #e74c3c;
+  background: #5F7800;
   border-radius: 3px;
   padding-left: 6px;
   color: #fff;
@@ -4817,11 +4817,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 0;
   border-style: solid;
   border-width: 4px 3.5px 0 3.5px;
-  border-color: #e74c3c transparent transparent transparent;
+  border-color: #5F7800 transparent transparent transparent;
 }
 
 .range_count #slider-range-min2 .ui-slider-range {
-  background: #e74c3c;
+  background: #5F7800;
 }
 
 .range_count .left_value {
@@ -7854,7 +7854,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .vero_widget h4 span {
-  color: #e74c3c;
+  color: #5F7800;
 }
 
 .vero_widget p {
@@ -7888,7 +7888,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .information_widget ul li:hover a {
-  color: #e74c3c;
+  color: #5F7800;
 }
 
 .recent_post_widget ul {
@@ -7914,7 +7914,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .recent_post_widget ul li:hover a {
-  color: #e74c3c;
+  color: #5F7800;
 }
 
 .newsletter_widget p {
@@ -7963,7 +7963,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .newsletter_widget .input-group .input-group-btn .btn-default {
   height: 50px;
   width: 60px;
-  background: #e74c3c;
+  background: #5F7800;
   border: none;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -8005,7 +8005,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .copyright .copyright_right {
   float: right;
   width: 50%;
-  background: #e74c3c;
+  background: #5F7800;
 }
 
 .copyright .copyright_right .copyright_social {
